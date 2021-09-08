@@ -38,7 +38,7 @@ class AppDemo(Qt.QMainWindow):
         dataRetriever = retrieveDataLOL()
         
         #get configuration LOL api and write to class
-        configFile = dataFile("config")
+        configFile = dataFile("config.txt")
         dataRetriever.setServerConfig(configFile.getData())
         
         dataRetriever.startServerConnection()
