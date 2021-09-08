@@ -1,0 +1,3 @@
+self.server=exampleServer
+self.api_key=exampleKey
+self.name=examplePlayerName
